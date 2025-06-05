@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Flashcards de Fisiologia</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fdfaff;
+      margin: 0;
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h1 {
+      color: #4b3f72;
+      text-align: center;
+    }
+
+    .intro {
+      max-width: 800px;
+      margin-bottom: 40px;
+      background-color: #ece9f1;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      line-height: 1.6;
+      color: #333;
+    }
+
+    .flashcard-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .card {
+      width: 280px;
+      height: 180px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      perspective: 1000px;
+      cursor: pointer;
+    }
+
+    .card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 0.8s;
+      transform-style: preserve-3d;
+      border-radius: 10px;
+    }
+
+    .card.flipped .card-inner {
+      transform: rotateY(180deg);
+    }
+
+    .card-face {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      border-radius: 10px;
+      box-sizing: border-box;
+    }
+
+    .card-front {
+      background-color: #dcd6f7;
+      color: #333;
+    }
+
+    .card-back {
+      background-color: #a6b1e1;
+      color: #fff;
+      transform: rotateY(180deg);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Flashcards de Fisiologia</h1>
+
+  <div class="intro">
+     Sistema Cardíaco
+ <p>O sistema cardíaco, ou sistema circulatório, é composto pelo coração e pelos vasos sanguíneos (artérias, veias e capilares). Ele é responsável por transportar o sangue, nutrientes, gases e hormônios por todo o corpo. O coração, órgão muscular localizado no mediastino, é dividido em quatro câmaras: dois átrios (superiores) e dois ventrículos (inferiores). Ele funciona como uma bomba dupla: o lado direito recebe o sangue venoso e o envia para os pulmões (circulação pulmonar), onde ocorre a oxigenação; o lado esquerdo bombeia o sangue arterial, rico em oxigênio, para os tecidos do corpo (circulação sistêmica). A contração do coração é ritmada e coordenada pelo sistema de condução elétrica, que começa no nó sinoatrial (marca-passo natural), passa pelo nó atrioventricular, feixe de His e fibras de Purkinje, promovendo batimentos cardíacos eficientes.</p>
+      
+    
+ Hemograma
+<p>O hemograma é um exame laboratorial essencial que avalia quantitativa e qualitativamente os elementos celulares do sangue. Ele fornece dados sobre:
+
+Hemácias: transportam oxigênio por meio da hemoglobina.
+
+Leucócitos: fazem parte do sistema imunológico, combatendo infecções.
+
+Plaquetas: atuam na coagulação sanguínea. Além disso, o hemograma pode incluir índices hematimétricos, como VCM, HCM e CHCM, que ajudam na caracterização de anemias. Alterações nos valores de referência podem indicar desde infecções agudas até doenças crônicas, imunológicas e hematológicas.
+
+      
+ Pressão do O2 em Altitudes
+<p>Em locais com maior altitude, a pressão atmosférica é reduzida, o que diminui também a pressão parcial de oxigênio no ar inspirado. Com menos O2 disponível, a oxigenação do sangue nos alvéolos pulmonares é prejudicada, causando hipóxia tecidual. Para compensar, o corpo inicia adaptações como hiperventilação (aumento da frequência respiratória), aumento na produção de eritropoetina (que estimula a formação de hemácias) e alterações na afinidade da hemoglobina pelo oxigênio, facilitando sua captação e liberação nos tecidos.
+
+      
+ Função Renal e Suas Etapas
+<p>Os rins são órgãos essenciais para o equilíbrio do organismo. Suas principais funções incluem:
+
+Filtração glomerular: o sangue chega aos néfrons pelos glomérulos, onde é filtrado, separando componentes úteis de resíduos.
+
+Reabsorção tubular: substâncias importantes, como glicose, aminoácidos e água, são reabsorvidas para o sangue.
+
+Secreção tubular: íons em excesso, metabólitos e medicamentos são secretados ativamente para o túbulo.
+
+Excreção: o produto final do processo é a urina, eliminada pela bexiga.
+Os rins também participam do controle da pressão arterial, síntese de hormônios (como a eritropoetina) e manutenção do pH sanguíneo.</p>
+
+  
+   Impulso Nervoso – Propagação
+<p>O impulso nervoso é uma alteração elétrica transitória que percorre a membrana dos neurônios. Quando um estímulo atinge o limiar, canais de sódio se abrem, despolarizando a membrana. Em seguida, canais de potássio se abrem, promovendo a repolarização. Nos neurônios mielinizados, o impulso "salta" de um nó de Ranvier a outro, em um processo chamado condução saltatória, que é mais rápida e eficiente que a condução contínua dos neurônios sem mielina.</p>
+
+      
+ Junção Neuromuscular
+<p>É o local de comunicação entre um neurônio motor e uma fibra muscular. Quando o impulso nervoso chega ao terminal axônico, ocorre a liberação de acetilcolina na fenda sináptica. Essa molécula se liga aos receptores da membrana muscular, gerando um potencial de ação que se propaga pela fibra muscular e desencadeia a contração. Esse processo é fundamental para o movimento voluntário e a resposta a estímulos motores.</p>
+
+      
+ Trocas Gasosas – Como Ocorrem
+<p>As trocas gasosas são processos fundamentais para a respiração celular. Elas ocorrem nos alvéolos pulmonares por difusão simples, favorecida por diferenças de pressão parcial. O oxigênio se difunde dos alvéolos para os capilares pulmonares, enquanto o CO₂ faz o caminho inverso. Fatores como espessura da membrana alveolar, superfície de troca e fluxo sanguíneo interferem na eficiência dessas trocas.</p>
+
+      
+ Ação dos Barorreceptores
+<p>Barorreceptores são mecanorreceptores sensíveis a variações na pressão arterial. Localizados principalmente no seio carotídeo e arco da aorta, eles detectam alterações na distensão das paredes arteriais. Quando há aumento da pressão, os barorreceptores ativam vias reflexas que reduzem a frequência cardíaca e causam vasodilatação. Quando a pressão cai, ocorre o efeito oposto. Esse reflexo é vital para a regulação rápida e momentânea da pressão arterial.</p>
+      
+  
+  Hemostasia
+<p>A hemostasia é o processo fisiológico que impede a perda excessiva de sangue após uma lesão vascular. Ela ocorre em três etapas interdependentes:
+
+1. Vasoconstrição: redução do calibre do vaso lesionado, diminuindo o fluxo sanguíneo.
+
+
+2. Hemostasia primária: formação do tampão plaquetário, por adesão e agregação de plaquetas.
+
+
+3. Hemostasia secundária: ativação da cascata de coagulação, culminando na formação de fibrina, que estabiliza o coágulo. A hemostasia é essencial para a integridade vascular e, quando desregulada, pode levar a sangramentos excessivos ou tromboses.</p>
+
+      
+  Espasmo Vascular
+<p>É a primeira resposta à lesão vascular, caracterizada por uma contração imediata e transitória da musculatura lisa do vaso sanguíneo afetado. Essa vasoconstrição reduz o fluxo sanguíneo local, colaborando para limitar a perda de sangue e facilitar a ação das plaquetas e fatores da coagulação nas etapas seguintes da hemostasia.</p>
+
+      
+ Toxina Botulínica e Curare
+
+<p>Toxina botulínica: produzida pela bactéria Clostridium botulinum, essa toxina impede a liberação de acetilcolina na junção neuromuscular, bloqueando a contração muscular. É utilizada terapeuticamente em distúrbios neuromusculares (como espasticidade) e, esteticamente, para suavizar rugas faciais ao induzir paralisia muscular temporária.</p>
+
+<p>Curare: é um alcaloide vegetal que age como antagonista competitivo da acetilcolina, bloqueando seus receptores na placa motora e causando paralisia muscular. Historicamente utilizado como veneno de flechas, hoje tem aplicação em anestesia para promover relaxamento muscular durante cirurgias.<p>
+
+
+    <p>Estudar por flashcards pode ser uma maneira eficiente de revisar conteúdos complexos como os da fisiologia. Este conjunto foi desenvolvido com base em perguntas e respostas diretas sobre o sistema cardiovascular, hematológico, respiratório e neuromuscular. Use estes cards para testar seus conhecimentos: clique para ver a resposta e clique novamente para voltar à pergunta. Bons estudos!</p>
+  </div>
+
+  <div class="flashcard-container" id="cards"></div>
+
+  <script>
+    const flashcards = [
+      { pergunta: "Qual a função principal do sistema cardiovascular?", resposta: "Transportar nutrientes, oxigênio, hormônios e remover resíduos do corpo." },
+      { pergunta: "O que é hematócrito?", resposta: "É a porcentagem do volume de sangue ocupado pelas hemácias." },
+      { pergunta: "Como é composta a camada interna do coração?", resposta: "Por endotélio e tecido conjuntivo subendotelial." },
+      { pergunta: "Qual estrutura do coração é responsável pela contração?", resposta: "Miocárdio (camada muscular do coração)." },
+      { pergunta: "Onde está localizado o nó sinoatrial?", resposta: "Na parede superior do átrio direito." },
+      { pergunta: "O que significa 'automaticidade' no coração?", resposta: "Capacidade do coração gerar seus próprios impulsos elétricos." },
+      { pergunta: "O que regula o sistema nervoso autônomo no coração?", resposta: "Nó sinoatrial e fibras simpáticas/parassimpáticas." },
+      { pergunta: "Qual a função da válvula tricúspide?", resposta: "Impedir refluxo de sangue do ventrículo direito para o átrio direito." },
+      { pergunta: "O que é débito cardíaco?", resposta: "Quantidade de sangue bombeado pelo coração por minuto." },
+      { pergunta: "Quais são as três camadas dos vasos sanguíneos?", resposta: "Túnica íntima, túnica média e túnica adventícia." },
+      { pergunta: "O que é pressão arterial?", resposta: "Força que o sangue exerce contra as paredes das artérias." },
+      { pergunta: "Quem detecta alterações na pressão arterial?", resposta: "Barorreceptores localizados na aorta e carótidas." },
+      { pergunta: "O que é vasoconstrição?", resposta: "Estreitamento dos vasos sanguíneos que aumenta a pressão." },
+      { pergunta: "Como os capilares facilitam as trocas gasosas?", resposta: "Por possuírem paredes finas e grande superfície de contato." },
+      { pergunta: "Qual a função da hemoglobina?", resposta: "Transportar oxigênio e dióxido de carbono no sangue." },
+      { pergunta: "O que é anemia?", resposta: "Redução da concentração de hemoglobina ou número de hemácias." },
+      { pergunta: "Quais células atuam na defesa do organismo?", resposta: "Leucócitos (glóbulos brancos)." },
+      { pergunta: "Qual o papel das plaquetas?", resposta: "Atuar na coagulação do sangue e formação do tampão plaquetário." },
+      { pergunta: "O que é a hemostasia?", resposta: "Processo que previne a perda de sangue após lesão vascular." },
+      { pergunta: "Como o oxigênio é transportado no sangue?", resposta: "Principalmente ligado à hemoglobina nas hemácias." },
+      { pergunta: "O que é hematopoiese?", resposta: "Processo de formação das células sanguíneas." },
+      { pergunta: "Como ocorre a inspiração?", resposta: "Contração do diafragma e músculos intercostais, aumentando o volume torácico." },
+      { pergunta: "O que é ventilação pulmonar?", resposta: "Entrada e saída de ar dos pulmões." },
+      { pergunta: "Onde ocorrem as trocas gasosas?", resposta: "Nos alvéolos pulmonares por difusão." },
+      { pergunta: "O que controla o ritmo da respiração?", resposta: "Centro respiratório localizado no bulbo." },
+      { pergunta: "O que é complacência pulmonar?", resposta: "Capacidade dos pulmões de se expandirem com facilidade." },
+      { pergunta: "Como o CO2 é transportado?", resposta: "Dissolvido no plasma, ligado à hemoglobina ou como bicarbonato." },
+      { pergunta: "O que causa hipóxia?", resposta: "Baixa disponibilidade de oxigênio nos tecidos." },
+      { pergunta: "O que é volume corrente?", resposta: "Quantidade de ar que entra ou sai dos pulmões em uma respiração normal." },
+      { pergunta: "Qual o papel do surfactante pulmonar?", resposta: "Reduz a tensão superficial dos alvéolos, evitando seu colapso." },
+      { pergunta: "Como a altitude afeta a respiração?", resposta: "Reduz a pressão parcial de O2, dificultando a oxigenação." },
+      { pergunta: "O que é a membrana respiratória?", resposta: "Barreira fina entre os alvéolos e capilares pulmonares para troca gasosa." },
+      { pergunta: "O que inicia o impulso nervoso?", resposta: "Um estímulo que gera despolarização da membrana." },
+      { pergunta: "Qual a função dos neurotransmissores?", resposta: "Transmitir sinais entre neurônios ou para células efetoras." },
+      { pergunta: "O que é sinapse?", resposta: "Conexão funcional entre dois neurônios." },
+      { pergunta: "Como a acetilcolina atua?", resposta: "Liga-se ao receptor na membrana pós-sináptica e gera potencial de ação." },
+      { pergunta: "O que é potencial de ação?", resposta: "Alteração rápida no potencial elétrico da membrana que propaga o sinal." },
+      { pergunta: "Qual o papel do cálcio na contração muscular?", resposta: "Permite a interação entre actina e miosina no músculo." },
+      { pergunta: "O que é placa motora?", resposta: "Sinapse entre o neurônio motor e a fibra muscular." },
+      { pergunta: "Como o curare afeta o corpo?", resposta: "Bloqueia receptores de acetilcolina, impedindo contração muscular." },
+      { pergunta: "Como a toxina botulínica age?", resposta: "Inibe a liberação de acetilcolina na fenda sináptica." },
+      { pergunta: "Qual o papel do retículo sarcoplasmático?", resposta: "Armazenar e liberar cálcio durante a contração." },
+      { pergunta: "O que é tétano muscular?", resposta: "Contração sustentada e contínua das fibras musculares." },
+      { pergunta: "O que é recrutamento de unidades motoras?", resposta: "Ativação progressiva de mais fibras musculares conforme a demanda." },
+      { pergunta: "Como se classificam as fibras musculares?", resposta: "Em tipo I (resistência) e tipo II (rápidas e fortes)." },
+      { pergunta: "O que é fadiga muscular?", resposta: "Perda temporária da capacidade de contração muscular." }
+    ];
+
+    const container = document.getElementById("cards");
+
+    flashcards.forEach(cardData => {
+      const card = document.createElement("div");
+      card.className = "card";
+
+      const inner = document.createElement("div");
+      inner.className = "card-inner";
+
+      const front = document.createElement("div");
+      front.className = "card-face card-front";
+      front.textContent = cardData.pergunta;
+
+      const back = document.createElement("div");
+      back.className = "card-face card-back";
+      back.textContent = cardData.resposta;
+
+      inner.appendChild(front);
+      inner.appendChild(back);
+      card.appendChild(inner);
+
+      card.addEventListener("click", () => {
+        card.classList.toggle("flipped");
+      });
+
+      container.appendChild(card);
+    });
+  </script>
+</body>
+</html>
